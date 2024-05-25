@@ -3,6 +3,7 @@ import DefaultLayout from "../components/DefaultLayout.vue";
 import Home from "../views/Home.vue";
 import Contact from "../views/Contact.vue";
 import Mission from "../views/Mission.vue";
+import Formations from "../views/Formations.vue";
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
         path: "/mission",
         name: "mission",
         component: Mission,
+      },
+      {
+        path: "/formations",
+        name: "formations",
+        component: Formations,
       },
     ],
   },

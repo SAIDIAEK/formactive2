@@ -9,7 +9,7 @@
       <div
         class="text-2xl font-semibold uppercase text-gray-800 text-center pb-8"
       >
-        Our website is comming soon
+        L'excellence est notre référence
       </div>
       <div class="text-5xl font-bold text-gray-900 text-center mb-4">
         We are preparing our website for you
