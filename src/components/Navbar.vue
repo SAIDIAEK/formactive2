@@ -2,7 +2,7 @@
   <nav class="bg-gray-200 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
     <div ref="menuContainer">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <router-link :to="{ name: 'home' }" class="flex items-center space-x-3 rtl:space-x-reverse" @click="closeMenu">
+      <router-link :to="{ name: 'home' }" class="flex items-center space-x-3 rtl:space-x-reverse" @click="handleMenuClick">
         <img src="/src/assets/logo.svg" class="h-8" alt="Flowbite Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Formactive Center</span>
       </router-link>
@@ -121,6 +121,7 @@ const handleMenuClick = () => {
 };
 
 const handleClickOutside = (event) => {
+  console.log(window.innerWidth)
   if ((menuContainer.value && !menuContainer.value.contains(event.target)) && isMenuOpen ) {
     closeMenu();
   }
