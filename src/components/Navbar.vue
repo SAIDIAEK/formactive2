@@ -123,7 +123,7 @@ const handleMenuClick = () => {
 };
 
 const handleClickOutside = (event) => {
-  if ((menuContainer.value && !menuContainer.value.contains(event.target)) && isMenuOpen ) {
+  if ((menuContainer.value && !menuContainer.value.contains(event.target)) && isMenuOpen.value ) {
     closeMenu();
     console.log(isMenuOpen.value)
   }
