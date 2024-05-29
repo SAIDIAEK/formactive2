@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000",
-    "build": "vite build && cp _redirects /",
+    "build": "vite build && cp _redirects dist/",
     "preview": "vite preview"
   },
   "dependencies": {

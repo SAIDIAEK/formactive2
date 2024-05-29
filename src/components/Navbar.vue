@@ -108,7 +108,6 @@ const menuContainer = ref(null);
 
 const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value;
-    console.log(isMenuOpen.value)
 };
 
 const closeMenu = () => {
@@ -118,14 +117,12 @@ const closeMenu = () => {
 const handleMenuClick = () => {
   if (window.innerWidth < 768) {
     closeMenu();
-    console.log(isMenuOpen.value)
   }
 };
 
 const handleClickOutside = (event) => {
   if ((menuContainer.value && !menuContainer.value.contains(event.target)) && isMenuOpen.value ) {
     closeMenu();
-    console.log(isMenuOpen.value)
   }
 };
 
