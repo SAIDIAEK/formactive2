@@ -3,7 +3,9 @@ import DefaultLayout from "../components/DefaultLayout.vue";
 import Home from "../views/Home.vue";
 import Contact from "../views/Contact.vue";
 import Mission from "../views/Mission.vue";
+import Langues from "../views/Langues.vue";
 import Formations from "../views/Formations.vue";
+import Informatique from "../views/formations/Informatique.vue"
 
 const routes = [
   {
@@ -26,9 +28,24 @@ const routes = [
         component: Mission,
       },
       {
+        path: "/langues",
+        name: "langues",
+        component: Langues,
+      },
+      {
         path: "/formations",
         name: "formations",
         component: Formations,
+      },
+      {
+        path: "/formation",
+        children: [
+          {
+            path: "/informatique",
+            name: "informatique",
+            component: Informatique,
+          },
+        ]
       },
     ],
   },
