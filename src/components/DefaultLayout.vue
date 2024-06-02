@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar class="fixed z-50 w-full shadow-md" />
-    <main class="flex flex-col  pt-16">
+    <main class="flex flex-col pt-16">
       <router-view />
     </main>
   </div>
