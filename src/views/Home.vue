@@ -6,7 +6,7 @@
         L'excellence est notre référence
       </div>
       <div class="text-5xl font-bold text-gray-900 text-center mb-4">
-        <TextAnimation fullText="Group Formactive Center" />
+        <TextAnimation fullText="Groupement Formactive Center" />
       </div>
       <!-- <div class="text-5xl font-bold text-gray-900 text-center mb-4">
         We are preparing our website for you
