@@ -8,31 +8,30 @@ export const useFormationStore = defineStore('formationStore', {
                 category: "Informatique",
                 themes: [
                     {id_theme: 1, name_theme: "Formation base de données oracle 11G"},
-                    {id_theme: 2, name_theme: "La programmation orientée objet : Le langage Java ( niveau 1,2 ) , Java Network"},
-                    {id_theme: 3, name_theme: "Formation Linux (installation, configuration, réseaux, fire wall ) distribution ; CentOs , ubunto , Redhat"},
-                    {id_theme: 4, name_theme: "Formation firewall spécifique ( IPCop , ISA , PFSense , etc )"},
-                    {id_theme: 5, name_theme: "Formation VoiP et téléphonie IP (Asterisk ,Elastix , trixbox , vicid_themeial )"},
-                    {id_theme: 6, name_theme: "Development Web : Framework Laravel ; Framework React; Vue.js ; Inertia.js"},
-                    {id_theme: 7, name_theme: "Technologies Cloud (Google Cloud, Amazon, etc.)"},
-                    {id_theme: 8, name_theme: "Formation sur la loi 18-07 (protection des données personnelles, qui est entrée en vigueur le 10/08/2023)"},
-                    {id_theme: 9, name_theme: "CCNA v7"},
-                    {id_theme: 10, name_theme: "Gestion des services informatiques (ISO 20000)"},
+                    {id_theme: 2, name_theme: "La programmation orientée objet : Le langage Java"},
+                    {id_theme: 3, name_theme: "Système d'exploitation : Administration Red Hat I"},
+                    {id_theme: 4, name_theme: "Administration Red Hat II"},
+                    {id_theme: 5, name_theme: "Linux"},
+                    {id_theme: 6, name_theme: "Développement Web : Framework Laravel"},
+                    {id_theme: 7, name_theme: "Framework Vue3"},
+                    {id_theme: 8, name_theme: "Framework React"},
+                    {id_theme: 9, name_theme: "Inertia.js"},
+                    {id_theme: 10, name_theme: "CCNA v7 "},
                     {id_theme: 11, name_theme: "Cybersecurity (ISO 27032)"},
                     {id_theme: 12, name_theme: "Gestion des risques de sécurité (ISO 27005)"},
                     {id_theme: 13, name_theme: "Formation sécurité infrastructure et système"},
                     {id_theme: 14, name_theme: "Formation Infrastructures réseaux"},
                     {id_theme: 15, name_theme: "Formation systèmes & virtualisation"},
-                    {id_theme: 16, name_theme: "Formation Windows Serveur (Installation, configuration, Active directory, sécurité)"},
-                    {id_theme: 17, name_theme: "Formation base de données MYSQL Administration Avancée"},
-                    {id_theme: 18, name_theme: "Formation Virtualisation serveur ( Xen , VituelBox , Vmware ESX )"},
-                    {id_theme: 19, name_theme: "Formation sur hébergement des applications ( VPS , cpanel )"},
+                    {id_theme: 16, name_theme: "Formation Windows Serveur 2019"},
+                    {id_theme: 17, name_theme: "Développement web"},
+                    {id_theme: 18, name_theme: "Formation base de données MYSQL Administration Avancée"},
+                    {id_theme: 19, name_theme: "MS Project"},
                     {id_theme: 20, name_theme: "MS Access"},
-                    {id_theme: 21, name_theme: "MS Project"},
-                    {id_theme: 22, name_theme: "Power point"},
-                    {id_theme: 23, name_theme: "Excel – niveau (N1; N2; N3)"},
-                    {id_theme: 24, name_theme: "Power BI – niveau (initial & intermédiaire)"},
-                    {id_theme: 25, name_theme: "Gestion de projet informatique"},
-                    {id_theme: 26, name_theme: "ITIL &helpdesk (v4)"},
+                    {id_theme: 21, name_theme: "Excel – niveau intermédiaire"},
+                    {id_theme: 22, name_theme: "Power BI – niveau initial"},
+                    {id_theme: 23, name_theme: "Power BI – niveau intermédiaire"},
+                    {id_theme: 24, name_theme: "Gestion de projet informatique"},
+                    {id_theme: 25, name_theme: "ITIL &helpdesk (niveau 2)"},
                 ]
             },
             { 
@@ -366,7 +365,7 @@ export const useFormationStore = defineStore('formationStore', {
                     {id_theme: 17, name_theme: "Hygiène de production en cuisine"},
                 ]
             },
-            { 
+            /* { 
                 id: 17, 
                 category: "Bâtiments et Travaux Publics",
                 themes: [
@@ -382,6 +381,16 @@ export const useFormationStore = defineStore('formationStore', {
                     {id_theme: 11, name_theme: "Charpente en bois et couverture"},
                     {id_theme: 12, name_theme: "Métreur tout corps d’état"},
                     {id_theme: 13, name_theme: "Métreur vérificateur"},
+                ]
+            }, */
+            { 
+                id: 17, 
+                category: "Pêche et aquaculture",
+                themes: [
+                    {id_theme: 1, name_theme: "Agent en pisciculture"},
+                    {id_theme: 2, name_theme: "Marin pêcheur"},
+                    {id_theme: 3, name_theme: "Ramendeur"},
+                    {id_theme: 4, name_theme: "Agent aquacole"},
                 ]
             },
             { 

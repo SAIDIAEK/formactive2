@@ -61,9 +61,9 @@
                 </ul>
               </div>
             </li> -->
-            <li>
+            <!-- <li>
               <Navlink name="langues" title="Langues" @click="handleMenuClick" />
-            </li>
+            </li> -->
             <li>
               <Navlink name="mission" title="Mission" @click="handleMenuClick" />
             </li>
